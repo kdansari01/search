@@ -1,0 +1,199 @@
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background: rgb(240, 239, 239);
+  color: #07A189;
+}
+
+tr:nth-child(even) {
+  background-color: #fafbfd;
+}
+
+.searchProject {
+  width: 90% !important;
+  margin-left: 5% !important;
+}
+
+.searchProInput::placeholder {
+  opacity: 0.5;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.modal-title h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.input-lable {
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+}
+
+.modal-content input {
+  background-color: #fff;
+  border: 1px solid #07A189;
+  outline: none;
+  box-shadow: 3px 18px 37px 10px rgba(165, 165, 165, 0.2);
+  border-radius: 15px;
+  padding-left: 34px;
+  height: 3rem;
+
+}
+.modal-content input::placeholder{
+  color: gray;
+  opacity: 0.8;
+}
+
+
+.modal-content input:focus {
+  border: 1px solid #07A189;
+}
+
+.modal-content input::placeholder {
+  color: #07A189;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: none !important;
+}
+
+.modal-content textarea {
+  background-color: #fff;
+  border: 1px solid #07A189;
+  outline: none;
+  box-shadow: 3px 18px 37px 10px rgba(165, 165, 165, 0.2);
+  border-radius: 15px;
+  height: 93px;
+
+}
+
+.modal-content textarea:focus {
+  border: 1px solid #07A189;
+}
+
+.modal-content textarea::placeholder {
+  color: #07A189;
+}
+
+.searchProjects {
+  position: relative;
+  top: -11rem;
+}
+
+.searchProInput {
+  width: 30rem;
+  height: 3rem;
+  background: #FFFFFF;
+  border: 1px solid #07A189;
+  box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+  border-radius: 10px;
+  outline: #07A189;
+  padding-left: 12px;
+
+}
+
+.menIcon{
+  font-size: 37px !important;
+  background: rgba(167, 251, 238, 0.22);
+  color: #07A189;
+}
+
+@media (min-width:300px) and (max-width:768px) {
+  .searchProInput {
+    width: 20rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border: 1px solid #07A189;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 10px;
+    outline: #07A189;
+    padding-left: 12px;
+
+  }
+
+  .searchProjects {
+    position: relative;
+    top: -9rem;
+    left: 1.6rem;
+  }
+
+  .searchIconMain {
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -14%;
+    padding: 10%;
+    height: 75%;
+    top: 10%;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.searchIcon {
+  position: relative;
+  /* top: 10%; */
+}
+
+.searchIconMain {
+  border-left: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -14%;
+  padding: 10px;
+  height: 75%;
+  top: 10%;
+  background: white;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown {
+  background: transparent;
+  border: 1px solid gray;
+}
+
+/* .daysAgo {
+  background: rgba(198, 164, 255, 0.25);
+  border-radius: 9px;
+  width: 5rem;
+  height:1rem;
+  padding: 2px;
+} */
+
+
+
+
+@media (min-width:300px) and (max-width:1400px) {
+  .formControl {
+    position: relative;
+    top: -120px;
+  }
+}

@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+.logo{
+    justify-content: center;
+}
+.footer {
+    /* max-height: 437px; */
+    min-height: 300px;
+    padding: 10px 0;
+    background: #FBFBFB;
+    font-family: 'Raleway', sans-serif;
+}
+.footer .logo{
+    margin-top:10px;
+}
+.footer .wrapper{
+    margin-left: 20px;
+
+}
+.footer a, h3,p{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+.footer a:hover,p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer p{
+    color: #6C6C6C;
+}
+.footer h3{
+    color: #000;
+    font-weight: 600;
+}
+
+.logo1{
+    background: #07A189;
+    border-radius: 15px;
+    width: 46%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.footer-icons{
+    font-size: 40px;
+}
+
+.twitter:hover{
+    cursor: pointer;
+    color: skyblue;
+}
+.facebook:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.instagram:hover{
+    cursor: pointer;
+    color: red;
+}
+
+
+
+
+
+
+
+@media (min-width:300px) and (max-width:756px){
+.footer .wrapper{
+    margin: -11px;
+    padding: 2px;
+}
+.social{
+    margin-left: -33px;
+}
+.product{
+    margin-top: 4px;
+}
+    .logo1{
+        background: #07A189;
+        border-radius: 15px;
+        width: 100px;
+        height: 31%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+    }
+    .logo{
+       margin-bottom: 2%;
+    }
+
+}

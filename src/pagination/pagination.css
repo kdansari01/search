@@ -1,0 +1,45 @@
+.btn-pagination{
+    user-select: none;
+    border: 2px solid #07A189;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 0 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  button{
+    background: white;
+    color: #000;
+  }
+  .disabled-1 {
+    color: #cbd5e0;
+    border: none;
+    opacity: 0.2;
+  }
+
+
+  .btn-pagination-arrow-1, .btn-pagination-arrow-2 {
+      color: #000;
+        border: none;
+        background-color: transparent;
+        font-weight: bolder;
+        height: 14px;
+        width: 14px;
+        cursor: pointer;
+        margin: 0 5px;
+  }
+
+
+  .btn-pagination-arrow:nth-child(1){
+    margin-right: 10px;
+  }
+
+  .Isactive-pagination {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    background: #07A189;
+    padding: 2px 8px;
+    border: none;
+    border-radius: 4px;
+  }

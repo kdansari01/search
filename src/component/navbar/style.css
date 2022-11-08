@@ -1,0 +1,224 @@
+.navbar {
+  background: #8ec9bf93;
+}
+
+.navbar-brand {
+  background: #07A189;
+  width: 7rem;
+  font-weight: bold;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+.imgHead {
+  width: 20%;
+}
+
+.profileImg {
+  width: 40%;
+  height: auto;
+
+}
+
+.badge {
+  position: relative;
+  top: -8px;
+  background: red;
+  width: 15px;
+  height: 15px;
+  font-size: -2px;
+  border-radius: 50%;
+}
+
+.badgeIcon {
+  color: #0AB79B;
+  font-size: 30px;
+
+}
+
+.searchInput::placeholder {
+  opacity: 0.5;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.searchInput{
+  padding-left:12px ;
+}
+
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .rightNavabr {
+    position: relative;
+    float: right;
+    right: -70px;
+    top: 7px;
+  }
+
+  .imgsection {
+    position: relative;
+    top: -5px;
+    right: -10px;
+  }
+
+  .searchBarSection {
+    position: relative;
+    left: 3rem;
+
+  }
+
+  .navbar-brand {
+    position: relative;
+    left: 2rem;
+    width: 8rem;
+    height: 3.7rem;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+  }
+
+  .searchInput {
+    width: 22rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border: 1px solid #07A189;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 15px;
+    outline: #07A189;
+
+  }
+
+  .searchButton {
+    background: #000000;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 16px;
+    width: 4.3rem;
+    height: auto;
+  }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+  
+  .navbar-brand {
+    position: relative;
+    left: -12%;
+    width: 6rem;
+    height: 2.7rem;
+    align-items: center;
+    display: flex;
+  }
+  .navbar-toggler{
+    position: relative;
+    right: -15%;
+  }
+
+  .searchInput {
+    width:15rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #07A189;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 15px;
+    outline: #07A189;
+
+  }
+
+  .searchButton {
+    background: #000000;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 16px;
+    width: 4.3rem;
+    height: auto;
+  }
+  
+
+}
+@media (min-width: 300px) and (max-width: 400px){
+  .rightNavabr{
+   margin-left: 15px;
+  }
+  .searchButton {
+    background: #000000;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 16px;
+    width: 4rem;
+    height: auto;
+  }
+  .searchInput {
+    width:14rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #07A189;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 15px;
+    outline: #07A189;
+
+  }
+}
+
+@media (min-width: 820px) and (max-width: 920px) {
+  
+  .navbar-brand {
+    position: relative;
+    left: -12%;
+    width: 6rem;
+    height: 2.7rem;
+    align-items: center;
+    display: flex;
+  }
+  .navbar-toggler{
+    position: relative;
+    right: -15%;
+  }
+
+  .searchInput {
+    width:15rem;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border: 1px solid #07A189;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 15px;
+    outline: #07A189;
+
+  }
+
+  .searchButton {
+    background: #000000;
+    box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
+    border-radius: 16px;
+    width: 4.3rem;
+    height: auto;
+  }
+
+}
+@media (min-width: 1020px) and (max-width: 1200px) {
+  
+  .imgsection {
+    position: relative;
+    width: 100%;
+    heigth:100%;
+    top:7%;
+    right: 3%;
+  }
+  .profileImg {
+  width: 100%;
+  height: auto;
+
+}
+.badge {
+  position: relative;
+  top: -38px;
+  left: 22px;
+  background: red;
+  width: 15px;
+  height: 15px;
+  font-size: -2px;
+  border-radius: 50%;
+}
+
+}
