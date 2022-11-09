@@ -24,9 +24,9 @@ const ApiSearchProject = ({ posts }) => {
         <div className="searchProject card row col-12 d-lg-block d-xl-block d-sm-none d-md-block d-none">
           <Dropdown />
           <table className="">
-            <tr className="">
+            <tr className="dataCard">
               {headers.map((ele, index) => (
-                <th key={index}>{ele}</th>
+                <th key={index} className="bg-transparent">{ele}</th>
               ))}
             </tr>
             {posts.map((ele, ind) => (

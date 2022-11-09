@@ -42,7 +42,7 @@
 .searchInput::placeholder {
   opacity: 0.5;
   text-align: center;
-  font-size: 1rem;
+  font-size: 13px;
 }
 
 .searchInput{
@@ -94,9 +94,10 @@
   .searchButton {
     background: #000000;
     box-shadow: 3px 18px 37px 10px rgb(165 165 165 / 20%);
-    border-radius: 16px;
-    width: 4.3rem;
+    border-radius: 31%;
+    width: 52px;;
     height: auto;
+
   }
 
 }
@@ -201,7 +202,7 @@
   .imgsection {
     position: relative;
     width: 100%;
-    heigth:100%;
+    height: auto;
     top:7%;
     right: 3%;
   }

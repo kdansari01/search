@@ -7,7 +7,7 @@ import "./style.css";
 export const ApiSearchProjectChild = ({ id, name }) => {
   const [offerModal, setOfferModal] = useState(false);
   return (
-    <tr key={id} className="tableCard mb-2">
+    <tr key={id} className="dataCard  mb-2">
       <td>
         <p>
           <PermIdentityIcon className="menIcon ml-2 "/> {name}

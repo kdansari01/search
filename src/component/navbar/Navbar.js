@@ -6,6 +6,7 @@ import Profile from "../../assests/image/profile.png"
 import { NavLink } from "react-router-dom";
 import SearchIcon from '@mui/icons-material/Search';
 import Hamburger from "../../assests/image/hamburger.png"
+import { Button } from "react-bootstrap";
 
 
 const Navbar = () => {
@@ -29,16 +30,20 @@ const Navbar = () => {
             <img src={Hamburger} alt="ham"/>
           </button>
           <div className="collapse navbar-collapse flex-grow-2 " id="navbarSupportedContent">
-          <form className="searchBarSection d-flex m-sm-2 mt-4 " role="search">
+          <form className="searchBarSection d-flex m-sm-2 mt-4 " role="search" type="submit">
               <input
                 className="searchInput  me-2"
                 type="search"
                 placeholder="What are you looking here eg. freelancer, projects"
                 aria-label="Search"
               />
-              <button className="searchButton " type="submit">
+              {/* <button className="searchButton " type="submit">
                 <SearchIcon  className=" text-light" />
-              </button>
+              </button> */}
+              <Button variant="dark" className="searchButton " > 
+               <SearchIcon  className=" text-light" />
+               </Button>
+
             </form>
             <div className="rightNavabr" >
             <ul className="navbar-nav  d-flex justify-content-center px-lg-5 ">
