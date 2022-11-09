@@ -14,7 +14,7 @@ const Dropdown = () => {
           <div className="col-lg-3 col-md-3 col-4 mt-2">
             <label>Category</label>
             <Form.Select size="lg">
-              <option text-muted selected disabled text-truncate >
+              <option className="text-muted "  selected disabled >
                 select category
               </option>
               <option>Large select</option>
@@ -25,7 +25,7 @@ const Dropdown = () => {
           <div className="col-lg-3 col-md-3 col-4 mt-2">
             <label>Sub-Category</label>
             <Form.Select size="lg">
-              <option text-muted selected disabled>
+              <option  selected disabled>
                 Sub-Category
               </option>
               <option>Large select</option>
@@ -36,7 +36,7 @@ const Dropdown = () => {
           <div className="col-lg-3 col-md-3 col-4 mt-2">
             <label>Delivery Time</label>
             <Form.Select size="lg">
-              <option text-muted selected disabled>
+              <option  selected disabled>
                 Delivery Time
               </option>
               <option>Large select</option>
@@ -47,7 +47,7 @@ const Dropdown = () => {
           <div className="col-lg-3 col-md-3 col-4 mt-2">
             <label>Country</label>
             <Form.Select size="lg">
-              <option text-muted selected disabled>
+              <option selected disabled>
                 Country
               </option>
               <option>Large select</option>
@@ -58,7 +58,7 @@ const Dropdown = () => {
           <div className="col-lg-3 col-md-3 col-4 mt-2">
             <label>Post Day</label>
             <Form.Select size="lg">
-              <option text-muted selected disabled>
+              <option selected disabled>
                 Post Day
               </option>
               <option>Large select</option>
@@ -69,7 +69,7 @@ const Dropdown = () => {
           <div className="col-lg-3 col-md-3 col-4 mt-2">
             <label>Pricing</label>
             <Form.Select size="lg">
-              <option text-muted selected disabled>
+              <option  selected disabled>
                 Pricing
               </option>
               <option>Large select</option>
