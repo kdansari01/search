@@ -7,24 +7,24 @@ import "./style.css";
 export const ApiSearchProjectChild = ({ id, name }) => {
   const [offerModal, setOfferModal] = useState(false);
   return (
-    <tr key={id} className="dataCard  mb-2">
-      <td>
+    <div key={id} className="dataCard  mb-2">
+      <div>
         <p>
           <PermIdentityIcon className="menIcon ml-2 "/> {name}
         </p>
-      </td>
-      <td className="">
+      </div>
+      <div className="">
         Lorem ipsum dolor sit <br /> amet, consectetur <br />
         adipiscing elit.
-      </td>
-      <td className="">₹ {Math.floor(Math.random() * 1000)}</td>
-      <td className="daysAgo ">2 Days ago</td>
-      <td className="">Active</td>
-      <td className=" ">
+      </div>
+      <div className="">₹ 1500</div>
+      <div className="daysAgo ">2 Days ago</div>
+      <div className="">Active</div>
+      <div className=" ">
         <PermIdentityIcon className="offer" fontSize="10" />
-        <span>{Math.floor(Math.random() * 20)}+</span>
-      </td>
-      <td className="p-2">
+        <span>13+</span>
+      </div>
+      <div className="p-2">
         <button
           type="button"
           className="btn btn-dark"
@@ -35,8 +35,8 @@ export const ApiSearchProjectChild = ({ id, name }) => {
         <img src={arrow} alt="arrow" className="arrowBtn "/>
           Send Offer
         </button>
-      </td>
+      </div>
       <SendOfferModal setOfferModal={setOfferModal} offerModal={offerModal} />
-    </tr>
+    </div>
   );
 };

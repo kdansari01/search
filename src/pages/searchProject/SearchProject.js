@@ -1,5 +1,3 @@
-
-
 import "./style.css";
 import Footer from "../../component/footer/Footer";
 import { HeroBackground } from "../../component/hero/HeroBackground";
@@ -12,6 +10,17 @@ import ApiSearchProject from "./ApiSearchProject";
 const SearchProject = () => {
   const [posts, setPost] = useState([]);
 
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchResult, setSearchResult] = useState([]);
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  // useEffect(() => {
+
+  // }, [searchTerm]);
+
   useEffect(() => {
     const fetchApi = async () => {
       const res = await axios.get("https://jsonplaceholder.typicode.com/users");
@@ -19,9 +28,13 @@ const SearchProject = () => {
       setPost(res.data);
     };
     fetchApi();
-  }, []);
 
-  // console.log(posts)
+    const result = posts.filter((person) =>
+      person.name.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+    );
+    setSearchResult(result);
+  }, [posts, searchTerm]);
+
   return (
     <>
       <div>
@@ -33,6 +46,9 @@ const SearchProject = () => {
               type="search"
               placeholder="Search more projects"
               aria-label="Search"
+              name="search"
+              onChange={handleSearch}
+              value={searchTerm}
             />
             <span className="searchIconMain">
               <SearchIcon className="searchIcon text-dark" />
@@ -41,8 +57,8 @@ const SearchProject = () => {
         </div>
 
         <div className="searchProjectMain d-flex justify-content-center">
-          <Card post={posts} className="" />
-          <ApiSearchProject posts={posts} />
+          <Card posts={searchResult} className="" />
+          <ApiSearchProject posts={searchResult} />
         </div>
         <Footer />
       </div>

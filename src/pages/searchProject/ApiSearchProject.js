@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown";
 import { ApiSearchProjectChild } from "./ApiSearchProjectChild";
 import { Pagination } from "../../pagination/Pagination";
 
-const ApiSearchProject = ({ posts }) => {
+const ApiSearchProject = ({ posts, onChange,value}) => {
   const [page, setPage] = useState(1);
   // const [active, setActive] = useState(null);
   // const [offerModal, setOfferModal] = useState(false);
